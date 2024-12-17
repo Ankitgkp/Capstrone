@@ -99,7 +99,7 @@ body {
 }
 
 .work-box {
-    background-color: rgba(26, 26, 46, 0.8);
+    background-color: #0a0a0f;
     border-radius: 1rem;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -117,7 +117,7 @@ body {
 
 .work-box h3 {
     padding: 1rem;
-    color: #00f2ff;
+    color: white
 }
 
 .work-box p {
@@ -146,7 +146,7 @@ body {
 
 .my-services h2 {
     margin-bottom: 2rem;
-    color: #00f2ff;
+    color: white
 }
 
 .services-list {
@@ -160,7 +160,7 @@ body {
 }
 
 .service-group ul {
-    list-style: none;
+    list-style:circle;
 }
 
 .service-group li {
