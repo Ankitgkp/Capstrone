@@ -11,6 +11,41 @@ body{
     display: flex;
   
   }
+
+.header-bar {
+    background-color: #8FFFFF33;
+    padding: 1rem;
+    border-radius: 22px;
+    scale: 0.8;
+    margin-bottom: 12rem;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-left, .menu-right {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .site-logo h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
   
   .main-heading{
     font-size: 80px;
@@ -162,3 +197,34 @@ body{
     cursor: pointer;
   }
   
+
+  .footer {
+    margin-top: 10rem;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 20px;
+    color : rgba(209, 235, 235, 0.62)
+}
+
+.follow-btn {
+    background: none;
+    border: 1px solid #e6e6ff;
+    color: #e6e6ff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0.5;
+}
